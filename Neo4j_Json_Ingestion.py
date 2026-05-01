@@ -3,8 +3,8 @@ from neo4j import GraphDatabase
 
 # Neo4j connection credentials
 URI = "neo4j://127.0.0.1:7687"
-USER = "neo4j"
-PASSWORD = "password" # Update to match your local instance
+USER = ""
+PASSWORD = "" # Update to match your local instance
 
 def parse_haystack_json(filepath):
     """Parses the Project Haystack JSON and extracts all nodes and edges."""
