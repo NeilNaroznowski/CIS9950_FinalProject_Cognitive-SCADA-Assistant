@@ -11,7 +11,7 @@ from langchain_community.chains.graph_qa.cypher import GraphCypherQAChain
 
 # --- 1. Setup API Keys & Database ---
 # Ensure your actual Gemini API key is pasted here
-os.environ["GOOGLE_API_KEY"] = "AIzaSyA9nBAGBQZj0HRJp8uHaZbEB_MUA0EIe_U" 
+os.environ["GOOGLE_API_KEY"] = "API_Key" 
 
 NEO4J_URI = "bolt://localhost:7687"
 NEO4J_USERNAME = "neo4j"
