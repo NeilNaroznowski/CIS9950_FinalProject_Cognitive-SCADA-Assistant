@@ -14,8 +14,8 @@ from langchain_community.chains.graph_qa.cypher import GraphCypherQAChain
 os.environ["GOOGLE_API_KEY"] = "API_Key" 
 
 NEO4J_URI = "bolt://localhost:7687"
-NEO4J_USERNAME = "neo4j"
-NEO4J_PASSWORD = "password" 
+NEO4J_USERNAME = ""
+NEO4J_PASSWORD = "" 
 
 print("Connecting to Neo4j...")
 graph = Neo4jGraph(
