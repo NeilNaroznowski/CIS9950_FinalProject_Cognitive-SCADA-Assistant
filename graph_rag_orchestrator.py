@@ -9,11 +9,11 @@ from langchain_community.chains.graph_qa.cypher import GraphCypherQAChain
 
 # --- 1. Credentials ---
 # Replace with your actual OpenAI API Key
-os.environ["GOOGLE_API_KEY"] = "AIzaSyA9nBAGBQZj0HRJp8uHaZbEB_MUA0EIe_U"
+os.environ["GOOGLE_API_KEY"] = ""
 
 NEO4J_URI = "neo4j://127.0.0.1:7687"
-NEO4J_USERNAME = "neo4j"
-NEO4J_PASSWORD = "password" # Use the password you set in Week 1
+NEO4J_USERNAME = ""
+NEO4J_PASSWORD = "" # 
 
 # --- 2. Connect LangChain to Neo4j ---
 print("Connecting to Neo4j...")
