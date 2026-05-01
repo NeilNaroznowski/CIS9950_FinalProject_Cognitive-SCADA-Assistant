@@ -16,7 +16,7 @@ To achieve real-time interoperability between modern AI libraries and industrial
 
 * **Frontend:** [Inductive Automation Ignition (Perspective)](https://inductiveautomation.com/)  
   *Serves as the industrial SCADA interface. Because Ignition runs on Jython (which does not support modern Python AI libraries), HTTP clients were utilized to bridge the OT and IT networks.*
-* **Middleware:** [FastAPI](https://fastapi.tiangolo.com/) & [Uvicorn](https://www.uvicorn.org/)  
+* **Middleware:** [FastAPI](https://fastapi.tiangolo.com/)
   *A lightweight Python REST server that exposes the AI logic to the Ignition SCADA system.*
 * **Orchestration:** [LangChain](https://www.langchain.com/) & [Google Gemini](https://ai.google.dev/)  
   *Utilizes `GraphCypherQAChain` to translate natural language into Cypher queries, route them to the database, and format the returned data via the Gemini-1.5/2.0-Flash LLM.*
